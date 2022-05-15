@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T13:47:21.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="D6tpZ9IJBVsi97DEtyXV" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T13:56:51.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="lxwdKA5fhHQBT07YyxFp" version="18.0.4" type="github">
   <diagram id="iDR_Ga6na6gWAw6zO_-4" name="Page-1">
     <mxGraphModel dx="1153" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="sKdbtBF5FKqXyuFzoLiL-13" value="信号参数赋值 (T,B,fc,fs)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="320" y="134" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sKdbtBF5FKqXyuFzoLiL-75" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=21;endArrow=classicThin;endFill=0;strokeColor=default;strokeWidth=3;" edge="1" parent="1" source="sKdbtBF5FKqXyuFzoLiL-14" target="sKdbtBF5FKqXyuFzoLiL-74">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sKdbtBF5FKqXyuFzoLiL-14" value="判断T_flag=1,B_flag=1,fc_flag=1,fs_flag=1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="255" y="243" width="330" height="100" as="geometry" />
@@ -30,8 +33,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sKdbtBF5FKqXyuFzoLiL-66" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.parallel_mode;pointerEvents=1;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="80" y="375" width="690" height="60" as="geometry" />
+        <mxCell id="sKdbtBF5FKqXyuFzoLiL-67" value="判断" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="110" y="505" width="156" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sKdbtBF5FKqXyuFzoLiL-74" value="按下Auto键" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="345" y="410" width="150" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
