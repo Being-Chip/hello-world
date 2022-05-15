@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T19:44:48.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="ugZxaNtwgnGnGzmfYIuX" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T19:47:25.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="5Yrk9iLYuJhexI0ZY2z9" version="18.0.4" type="github">
   <diagram id="iDR_Ga6na6gWAw6zO_-4" name="Page-1">
     <mxGraphModel dx="3422" dy="2517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -244,6 +244,9 @@
         <mxCell id="zoICoRGIBS50A1K_tyUO-76" value="锁定主窗口&lt;br&gt;弹出提示窗" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=28;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1574" y="1840" width="187" height="83" as="geometry" />
         </mxCell>
+        <mxCell id="4PbBocmlXjJBFLrsJSHG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=28;strokeWidth=3;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-79" target="4PbBocmlXjJBFLrsJSHG-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-79" value="按下Eximage键" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=28;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="351.25" y="2070" width="224.5" height="100" as="geometry" />
         </mxCell>
@@ -290,6 +293,9 @@
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-86" value="显示数字对&lt;br&gt;应的波形图" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=28;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="5" y="1271" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4PbBocmlXjJBFLrsJSHG-22" value="提取出波形图" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=28;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="318" y="2290" width="288" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
