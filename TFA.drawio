@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T17:09:15.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="_7YLoBntfeJHDRs72U0j" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T17:11:57.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="vnWHScDQ3vlYaVcATMhl" version="18.0.4" type="github">
   <diagram id="iDR_Ga6na6gWAw6zO_-4" name="Page-1">
     <mxGraphModel dx="2903" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,7 +109,10 @@
           <mxGeometry x="495" y="760" width="180" height="76" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-15" value="信噪比(SNR)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="410" width="220" height="70" as="geometry" />
+          <mxGeometry x="-190" y="600" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="zoICoRGIBS50A1K_tyUO-17" value="判断chart_num" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="750" width="226" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
