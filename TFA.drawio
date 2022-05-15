@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-05-15T18:53:59.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Cz0JjUvUSP4UiwWd4KdP" version="18.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-15T18:57:46.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="l9iTkCsHmpIuwDiKox84" version="18.0.4" type="github">
   <diagram id="iDR_Ga6na6gWAw6zO_-4" name="Page-1">
-    <mxGraphModel dx="2903" dy="1078" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2903" dy="2247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sKdbtBF5FKqXyuFzoLiL-12" value="信号分析界面开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="370" y="40" width="100" height="60" as="geometry" />
+        <mxCell id="sKdbtBF5FKqXyuFzoLiL-12" value="信号分析界面开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=28;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="307" y="-130" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="sKdbtBF5FKqXyuFzoLiL-13" value="信号参数赋值 (T,B,fc,fs)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
-          <mxGeometry x="320" y="134" width="200" height="70" as="geometry" />
+        <mxCell id="sKdbtBF5FKqXyuFzoLiL-13" value="信号参数赋值 (T,B,fc,fs)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=28;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="287" y="60" width="290" height="98" as="geometry" />
         </mxCell>
         <mxCell id="sKdbtBF5FKqXyuFzoLiL-75" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontSize=21;endArrow=classicThin;endFill=0;strokeColor=default;strokeWidth=3;" parent="1" source="sKdbtBF5FKqXyuFzoLiL-14" target="sKdbtBF5FKqXyuFzoLiL-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -19,11 +19,11 @@
         <object label="" id="sKdbtBF5FKqXyuFzoLiL-64">
           <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;endArrow=classicThin;endFill=0;jumpSize=6;strokeColor=default;" parent="1" edge="1">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="255" y="293" as="sourcePoint" />
-              <mxPoint x="343" y="168" as="targetPoint" />
+              <mxPoint x="255" y="247" as="sourcePoint" />
+              <mxPoint x="343" y="122" as="targetPoint" />
               <Array as="points">
-                <mxPoint x="170" y="293" />
-                <mxPoint x="170" y="168" />
+                <mxPoint x="170" y="247" />
+                <mxPoint x="170" y="122" />
               </Array>
             </mxGeometry>
           </mxCell>
@@ -67,8 +67,10 @@
         <mxCell id="zoICoRGIBS50A1K_tyUO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sKdbtBF5FKqXyuFzoLiL-74" target="zoICoRGIBS50A1K_tyUO-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zoICoRGIBS50A1K_tyUO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sKdbtBF5FKqXyuFzoLiL-74" target="zoICoRGIBS50A1K_tyUO-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zoICoRGIBS50A1K_tyUO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zoICoRGIBS50A1K_tyUO-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="346" y="445" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="sKdbtBF5FKqXyuFzoLiL-74" value="按下Auto键" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=21;" parent="1" vertex="1">
           <mxGeometry x="345" y="410" width="150" height="70" as="geometry" />
@@ -132,40 +134,41 @@
           <mxGeometry x="465" y="760" width="180" height="76" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-15" value="信噪比(赋值SNR)" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="-153" y="560" width="220" height="70" as="geometry" />
+          <mxGeometry x="-152" y="560" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-22" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-17" target="zoICoRGIBS50A1K_tyUO-15">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="100" y="765" />
-              <mxPoint x="100" y="595" />
+              <mxPoint x="101" y="765" />
+              <mxPoint x="101" y="595" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-27" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-17" target="zoICoRGIBS50A1K_tyUO-25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-207" y="765" />
+              <mxPoint x="-206" y="765" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-17" value="判断Snr_flag=1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="-156" y="715" width="226" height="100" as="geometry" />
+          <mxGeometry x="-155" y="715" width="226" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="zoICoRGIBS50A1K_tyUO-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-86" target="zoICoRGIBS50A1K_tyUO-79">
+        <mxCell id="zoICoRGIBS50A1K_tyUO-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-86">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="15" y="1120" as="sourcePoint" />
+            <mxPoint x="16" y="1120" as="sourcePoint" />
+            <mxPoint x="516" y="1590" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="15" y="1540" />
-              <mxPoint x="515" y="1540" />
+              <mxPoint x="16" y="1540" />
+              <mxPoint x="516" y="1540" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-28" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-25" target="zoICoRGIBS50A1K_tyUO-86">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="15" y="1040" as="targetPoint" />
+            <mxPoint x="16" y="1040" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="20" y="910" />
+              <mxPoint x="21" y="910" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -173,10 +176,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-25" value="判断chart_num（10~21）" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=21;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="860" width="226" height="100" as="geometry" />
+          <mxGeometry x="-319" y="860" width="226" height="100" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-29" value="锁定主窗口，弹出提示窗" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-297" y="1040" width="180" height="76" as="geometry" />
+          <mxGeometry x="-296" y="1040" width="180" height="76" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-31" target="zoICoRGIBS50A1K_tyUO-84">
           <mxGeometry relative="1" as="geometry">
@@ -244,7 +247,7 @@
         <mxCell id="zoICoRGIBS50A1K_tyUO-68" value="判断chart_num&lt;br&gt;(2~6,8,10,11.&lt;br&gt;14,15,18,19)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=21;" vertex="1" parent="1">
           <mxGeometry x="1157" y="1230" width="300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="zoICoRGIBS50A1K_tyUO-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="zoICoRGIBS50A1K_tyUO-79">
+        <mxCell id="zoICoRGIBS50A1K_tyUO-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-85" target="zoICoRGIBS50A1K_tyUO-79">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1097" y="1480" as="sourcePoint" />
             <Array as="points">
@@ -262,6 +265,14 @@
         <mxCell id="zoICoRGIBS50A1K_tyUO-83" value="显示数字对应的波形图" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="130" y="765" width="240" height="75" as="geometry" />
         </mxCell>
+        <mxCell id="zoICoRGIBS50A1K_tyUO-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-84" target="zoICoRGIBS50A1K_tyUO-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="1540" />
+              <mxPoint x="515" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-84" value="显示数字对应的波形图" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
           <mxGeometry x="650" y="1390" width="240" height="75" as="geometry" />
         </mxCell>
@@ -269,7 +280,7 @@
           <mxGeometry x="980" y="1380" width="240" height="75" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-86" value="显示数字对应的波形图" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="1060" width="240" height="75" as="geometry" />
+          <mxGeometry x="-99" y="1060" width="240" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
