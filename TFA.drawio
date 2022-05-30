@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-30T09:39:28.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="dxzph9oO8p-pJ5ticTLR" version="18.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-30T09:44:09.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="ovCs_QBiqcyD1OwQmw-F" version="18.1.1" type="github">
   <diagram id="iDR_Ga6na6gWAw6zO_-4" name="Page-1">
     <mxGraphModel dx="4979" dy="3325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sKdbtBF5FKqXyuFzoLiL-14" value="判断T_flag=1,B_flag=1,fc_flag=1,fs_flag=1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=53;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="198.5" y="-182" width="950" height="410" as="geometry" />
+          <mxGeometry x="86" y="-182" width="1180" height="410" as="geometry" />
         </mxCell>
         <mxCell id="Ho5i0whExgS17HJGDXYC-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=53;strokeWidth=7;" parent="1" source="sKdbtBF5FKqXyuFzoLiL-67" target="zoICoRGIBS50A1K_tyUO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -54,8 +54,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="zl6jb8BliMxVkXKnrP43-12" value="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=53;strokeWidth=6;" edge="1" parent="1" source="sKdbtBF5FKqXyuFzoLiL-67" target="zoICoRGIBS50A1K_tyUO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sKdbtBF5FKqXyuFzoLiL-67" value="判断method_num" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=53;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1442" y="472" width="544" height="230" as="geometry" />
+          <mxGeometry x="1442" y="463" width="544" height="230" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=53;fontStyle=1;strokeWidth=3;" parent="1" source="sKdbtBF5FKqXyuFzoLiL-74" target="zoICoRGIBS50A1K_tyUO-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -84,10 +87,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-4" value="执行&lt;br&gt;STFT" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=53;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1178" y="737" width="280" height="120" as="geometry" />
+          <mxGeometry x="1178" y="711" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zl6jb8BliMxVkXKnrP43-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=53;strokeWidth=6;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-5" target="zoICoRGIBS50A1K_tyUO-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-5" value="执行&lt;br style=&quot;font-size: 53px;&quot;&gt;WVD" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=53;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1580" y="780.5" width="282" height="130" as="geometry" />
+          <mxGeometry x="1575" y="866.5" width="282" height="130" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-6" value="执行&lt;br&gt;WT" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=53;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2065" y="756" width="220" height="149" as="geometry" />
@@ -153,7 +159,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-38" value="窗函数宽度（W_N）" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=53;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1106" y="910" width="420" height="162" as="geometry" />
+          <mxGeometry x="1106" y="902" width="420" height="162" as="geometry" />
         </mxCell>
         <mxCell id="Ho5i0whExgS17HJGDXYC-12" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=53;strokeWidth=7;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="zoICoRGIBS50A1K_tyUO-41" target="zoICoRGIBS50A1K_tyUO-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -162,23 +168,22 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1040" y="1247" />
-              <mxPoint x="1040" y="991" />
+              <mxPoint x="1040" y="983" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-41" value="判断w_n_flag=1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=53;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1103" y="1123" width="429" height="247" as="geometry" />
+          <mxGeometry x="1080" y="1123" width="470" height="247" as="geometry" />
         </mxCell>
-        <mxCell id="Ho5i0whExgS17HJGDXYC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=53;strokeWidth=7;" parent="1" source="zoICoRGIBS50A1K_tyUO-45" target="zoICoRGIBS50A1K_tyUO-31" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Ho5i0whExgS17HJGDXYC-11" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=53;" parent="Ho5i0whExgS17HJGDXYC-10" vertex="1" connectable="0">
-          <mxGeometry x="0.0128" y="-9" relative="1" as="geometry">
-            <mxPoint x="2" as="offset" />
+        <mxCell id="zl6jb8BliMxVkXKnrP43-11" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=53;strokeWidth=6;" edge="1" parent="1" source="zoICoRGIBS50A1K_tyUO-45" target="zoICoRGIBS50A1K_tyUO-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1286" y="1427" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-45" value="判断Snr_flag=1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=53;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="1545" y="1317" width="480" height="220" as="geometry" />
+          <mxGeometry x="1474" y="1317" width="480" height="220" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-52" value="设置母小波" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=53;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2025" y="1019" width="310" height="150" as="geometry" />
@@ -208,7 +213,7 @@
           <mxGeometry x="1865" y="1517" width="772" height="360" as="geometry" />
         </mxCell>
         <mxCell id="zoICoRGIBS50A1K_tyUO-76" value="锁定主窗口&lt;br style=&quot;font-size: 53px;&quot;&gt;弹出提示窗" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=53;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="2135" y="2107" width="312" height="175" as="geometry" />
+          <mxGeometry x="2059" y="2107" width="312" height="175" as="geometry" />
         </mxCell>
         <mxCell id="4PbBocmlXjJBFLrsJSHG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=53;strokeWidth=3;fontStyle=1" parent="1" source="zoICoRGIBS50A1K_tyUO-79" target="4PbBocmlXjJBFLrsJSHG-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
