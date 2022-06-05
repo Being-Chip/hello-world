@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-04T16:19:16.224Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="fGQ6TGjlWiopDCrnaZaM" version="18.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T03:38:56.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="2uWbcBIHGOdH7kmjAkxS" version="18.1.3" type="github">
   <diagram id="iDR_Ga6na6gWAw6zO_-4" name="Page-1">
-    <mxGraphModel dx="6017" dy="3584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4979" dy="3101" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,7 +24,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="sKdbtBF5FKqXyuFzoLiL-12" value="信号分析界面开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=53;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="sKdbtBF5FKqXyuFzoLiL-12" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=53;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="452.5" y="-770" width="442" height="195" as="geometry" />
         </mxCell>
         <mxCell id="zl6jb8BliMxVkXKnrP43-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=6;fontStyle=0" parent="1" source="sKdbtBF5FKqXyuFzoLiL-13" target="sKdbtBF5FKqXyuFzoLiL-14" edge="1">
@@ -303,8 +303,8 @@
         <mxCell id="B0-tI1_GG4w89GKIiCHv-1" value="按下Exit键" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=53;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1403" y="-464" width="265" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="331KJBNwgJ3MwqHjYH2H-1" value="信号分析界面结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=53;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="1319.5" y="-230" width="435.5" height="130" as="geometry" />
+        <mxCell id="331KJBNwgJ3MwqHjYH2H-1" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=53;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="1319.5" y="-230" width="430.5" height="190" as="geometry" />
         </mxCell>
         <mxCell id="w1tSvWxITmpsIA3a3TqP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=6;fontStyle=0;fontSize=53;" parent="1" source="331KJBNwgJ3MwqHjYH2H-6" target="w1tSvWxITmpsIA3a3TqP-1" edge="1">
           <mxGeometry relative="1" as="geometry">
